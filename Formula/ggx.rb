@@ -1,25 +1,25 @@
 class Ggx < Formula
   desc "A fast AI-powered git workflow CLI"
   homepage "https://github.com/maty-millien/ggx"
-  version "0.5.1"
+  version "0.5.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/maty-millien/ggx/releases/download/v0.5.1/ggx-aarch64-apple-darwin.tar.xz"
-      sha256 "550cda6b825a117c5aeb6d453e1fc15f791033c62eb50e9ffe571711e4fd0742"
+      url "https://github.com/maty-millien/ggx/releases/download/v0.5.2/ggx-aarch64-apple-darwin.tar.xz"
+      sha256 "5059b689d2b71d351b7ccfffeb2aa48efdeebdafc748170bfb3f232697ac0cba"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maty-millien/ggx/releases/download/v0.5.1/ggx-x86_64-apple-darwin.tar.xz"
-      sha256 "c6c187fc4a8cf07379584f489a39d1a8f5b53b14cbffc7f3f70b87704cf20c60"
+      url "https://github.com/maty-millien/ggx/releases/download/v0.5.2/ggx-x86_64-apple-darwin.tar.xz"
+      sha256 "590ee940dfbb5ab8c55aa9a378cd85b97069a3eef8f0cfed91e0f954839b4f8d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/maty-millien/ggx/releases/download/v0.5.1/ggx-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "559539681e042b091ed153b26f1c5b9a20c1dfc744718cc47dac942387568bd4"
+      url "https://github.com/maty-millien/ggx/releases/download/v0.5.2/ggx-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "58a0e625b119c5d19f4001d906cef38f1729e215e970a32bc215210711b89508"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/maty-millien/ggx/releases/download/v0.5.1/ggx-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "db799fe31802b256972ec7849bde3a022a906eb0d257c22019df85b8b7ecbd0b"
+      url "https://github.com/maty-millien/ggx/releases/download/v0.5.2/ggx-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b2cd4fecc91c5f2e127f53afa5d60c092ae21285187bccd7ae43623b3009df3c"
     end
   end
   license "MIT"
